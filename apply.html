@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contractor Intake Form – FirstLight Home Pros</title>
+<meta name="description" content="Join the FirstLight Home Pros subcontractor network in Tampa, FL. Submit your intake form and required documents to get started.">
+<link rel="canonical" href="https://www.firstlighthomepros.com/apply.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FirstLight Home Pros">
+<meta property="og:title" content="Contractor Intake Form – FirstLight Home Pros">
+<meta property="og:description" content="Join the FirstLight Home Pros subcontractor network in Tampa, FL. Submit your intake form and required documents to get started.">
+<meta property="og:url" content="https://www.firstlighthomepros.com/apply.html">
+<meta property="og:image" content="https://www.firstlighthomepros.com/images/crew-painting.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contractor Intake Form – FirstLight Home Pros">
+<meta name="twitter:description" content="Join the FirstLight Home Pros subcontractor network in Tampa, FL. Submit your intake form and required documents.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .apply-intro-bar {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4rem 2rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+  @media(max-width:768px){
+    .apply-intro-bar { grid-template-columns: 1fr; gap: 1.5rem; padding: 3rem 1.5rem 1.5rem; }
+  }
+  .apply-intro h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--heading);
+    line-height: 1.2;
+  }
+  .apply-intro p {
+    font-size: .97rem;
+    line-height: 1.8;
+    color: var(--text);
+    margin-bottom: 1.75rem;
+  }
+  .apply-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .65rem;
+  }
+  .apply-checklist li {
+    font-size: .93rem;
+    color: var(--text);
+    display: flex;
+    align-items: flex-start;
+    gap: .6rem;
+    line-height: 1.5;
+  }
+  .apply-checklist li::before {
+    content: "✓";
+    color: var(--btn);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: .05em;
+  }
+  .apply-form-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2rem 5rem;
+    position: relative;
+  }
+  @media(max-width:768px){
+    .apply-form-wrap { padding: 0 1.5rem 3rem; }
+  }
+  .apply-form-wrap iframe {
+    border-radius: 12px;
+    overflow: hidden;
+    display: block;
+  }
+  /* Cover the JotForm free-tier branding strip at the bottom of the iframe */
+  .apply-form-wrap::after {
+    content: '';
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    bottom: 5rem;
+    height: 60px;
+    background: var(--bg, #FDFBF6);
+    border-radius: 0 0 12px 12px;
+    pointer-events: none;
+    z-index: 2;
+  }
+  @media(max-width:768px){
+    .apply-form-wrap::after { left: 1.5rem; right: 1.5rem; bottom: 3rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <a href="/" class="logo"><img src="logo.png" alt="FirstLight Home Pros"></a>
+  <button class="hamburger" onclick="toggleNav()" aria-label="Menu">☰</button>
+  <ul class="nav" id="main-nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="apply.html" class="active">Contractors</a></li>
+  </ul>
+  <a href="mailto:info@firstlighthomepros.com" class="btn-cta">Get Your Free Estimate</a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg" style="background-image:url('images/crew-painting.jpg')"></div>
+  <div class="hero-overlay" style="background:rgba(28,18,5,0.72)"></div>
+  <div class="hero-content">
+    <div class="hero-label">Join our network</div>
+    <h1>Work with FirstLight Home Pros</h1>
+    <p>We partner with skilled painting professionals throughout the Tampa Bay area. Complete the intake form to get started.</p>
+    <div class="hero-actions">
+      <a href="#apply-form" class="btn-primary">Start your intake form</a>
+      <a href="tel:+18134003993" class="btn-ghost">Call (813) 400-3993</a>
+    </div>
+  </div>
+</section>
+
+<!-- APPLY INTRO -->
+<div class="apply-intro-bar" id="apply-form">
+
+  <!-- LEFT: intro -->
+  <div class="apply-intro">
+    <div class="section-label">Subcontractor intake</div>
+    <h2>Tell us about yourself and your business</h2>
+    <p>Fill out the form below — no Google account required. We review every intake form and follow up within one business day.</p>
+    <p style="font-size:.85rem;color:var(--text);line-height:1.7">Questions? Call us at <a href="tel:+18134003993" style="color:var(--btn);font-weight:600">(813) 400-3993</a> or email <a href="mailto:info@firstlighthomepros.com" style="color:var(--btn);font-weight:600">info@firstlighthomepros.com</a>.</p>
+  </div>
+
+  <!-- RIGHT: required docs checklist -->
+  <div>
+    <p style="font-size:.9rem;font-weight:600;color:var(--heading);margin-bottom:.75rem">Required documents to upload</p>
+    <ul class="apply-checklist">
+      <li>W-9 Form</li>
+      <li>Certificate of Insurance (COI)</li>
+      <li>Workers' Compensation Certificate</li>
+      <li>Work Photos — optional but encouraged</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- JOTFORM EMBED -->
+<div class="apply-form-wrap">
+  <iframe id="JotFormIFrame-260556537697068" title="Painting Subcontractor Intake Form"
+    onload="window.parent.scrollTo(0,0)" allowtransparency="true"
+    allow="geolocation; microphone; camera; fullscreen; payment"
+    src="https://form.jotform.com/260556537697068"
+    frameborder="0"
+    style="min-width:100%;max-width:100%;height:539px;border:none;"
+    scrolling="no">
+  </iframe>
+  <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+  <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-260556537697068']", "https://form.jotform.com/")</script>
+</div>
+
+<!-- FINAL CTA -->
+<section class="cta-band" style="background:#F5EFE3">
+  <h2>Ready to work with us?</h2>
+  <p>Complete the intake form above or reach out directly. We review every submission and follow up within one business day.</p>
+  <div class="cta-actions">
+    <a href="#apply-form" class="btn-primary">Apply now</a>
+    <a href="contact.html" class="btn-outline">Contact us</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <ul class="footer-nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="apply.html">Contractors</a></li>
+  </ul>
+  <div class="footer-divider"></div>
+  <div class="footer-brand"><img src="logo.png" alt="FirstLight Home Pros"></div>
+  <div style="text-align:center;margin:.5rem 0;font-size:.9rem"><a href="tel:+18134003993" style="color:var(--hero-text);text-decoration:none">(813) 400-3993</a> &nbsp;·&nbsp; <a href="mailto:info@firstlighthomepros.com" style="color:var(--hero-text);text-decoration:none">info@firstlighthomepros.com</a></div>
+  <div class="footer-divider"></div>
+  <div class="footer-bottom">
+    <span>© 2026 FirstLight Home Pros. All rights reserved.</span>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/firstlighthomepros" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/firstlighthomepros" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <span>Tampa, Florida</span>
+  </div>
+</footer>
+
+<script>
+function toggleNav(){document.getElementById('main-nav').classList.toggle('open')}
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',function(e){
+    const target=document.querySelector(this.getAttribute('href'));
+    if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth',block:'start'})}
+  });
+});
+</script>
+</body>
+</html>
